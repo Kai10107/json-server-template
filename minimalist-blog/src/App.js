@@ -1,9 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NavBar from './NavBar';
+import NewPostForm from './NewPostForm';
+import BlogPost from './BlogPost';
+import BlogList from './BlogList';
 
 function App() {
   return (
     <BrowserRouter> 
-      <NavBar /> {} 
+      <NavBar />  
       <Routes>
         <Route path="/" element={<BlogList />} />
         <Route path="/posts/new" element={<NewPostForm />} /> 
@@ -12,3 +16,5 @@ function App() {
     </BrowserRouter>
   );
 }
+
+export default App; 
