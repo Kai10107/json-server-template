@@ -1,19 +1,27 @@
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import NavBar from './NavBar';
-import NewPostForm from './NewPostForm';
-import BlogPost from './BlogPost';
-import BlogList from './BlogList';
+import NavBar from './components/NavBar';
+import NewPostForm from './components/NewPostForm';
+import BlogPost from './components/BlogPost';
+import BlogList from './components/BlogList';
 
 function App() {
   return (
-    <BrowserRouter> 
-      <NavBar />  
-      <Routes>
-        <Route path="/" element={<BlogList />} />
-        <Route path="/posts/new" element={<NewPostForm />} /> 
-        <Route path="/posts/:postId" element={<BlogPost />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="container"> {/* Main container */}
+      <BrowserRouter> 
+        <NavBar />  
+        <main className="content">
+          <Routes>
+            <Route path="/" element={<BlogList />} />
+            <Route path="/posts/new" element={<NewPostForm />} /> 
+            <Route path="/posts/:postId" element={<BlogPost />} />
+          </Routes>
+        </main>
+        <footer>
+          <p>&copy; 2023 Your Blog Name</p>
+        </footer>
+      </BrowserRouter>
+    </div>
   );
 }
 
