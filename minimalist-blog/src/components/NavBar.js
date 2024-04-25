@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav>
       <div className="logo">
-        <h1>My Blog</h1> 
+        <h1> <i class="ri-send-plane-2-line"></i> My Blog </h1> 
       </div>
       <ul className="nav-links"> 
         <li><Link to="/">Home</Link></li>
