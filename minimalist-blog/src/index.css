@@ -5,6 +5,11 @@ body {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  background-color: #28282B;
 }
 
 .container {
@@ -26,14 +31,15 @@ h2 {
   color: red;
 }
 
-/* Update index.css */
+
 .navbar {
-  background-color: #c08b8b;
-  color: #812929;
+  background-color: #68c2e6;
+  color: #fff;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width:100%;
 }
 
 .logo {

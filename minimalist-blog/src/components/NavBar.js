@@ -1,4 +1,4 @@
-// NavBar.js
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -7,7 +7,7 @@ function NavBar() {
     <nav className="navbar">
       <div className="logo">
         <Link to="/" style={{ color: '#fff', textDecoration: 'none' }}>
-          <i className="ri-send-plane-2-line"></i> My Blog
+           My Blog
         </Link>
       </div>
       <ul className="nav-links">
@@ -26,7 +26,7 @@ function NavBar() {
             About
           </Link>
         </li>
-        {/* Add additional navigation links as needed */}
+        {}
       </ul>
     </nav>
   );
