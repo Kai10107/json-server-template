@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Blog Post",
+      "content": "test", 
+      "date": "2023-04-28",
+      "author": "Jane Doe",
+      "image": "/images/blogpost1.jpg",
+      "categories": ["Personal", "Reflections"] 
+    },
+    {
+      "id": 2,
+      "title": "Exploring New Web Technologies",
+      "content": "Fascinating journey into JavaScript frameworks and beyond...",
+      "date": "2023-04-26"
+    },
+    {
+      "id": 3,
+      "title": "Coding Adventures",
+      "content": "Debugging stories and moments of triumph...",
+      "date": "2023-04-23"
+    }
+  ]
+}

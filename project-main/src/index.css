@@ -1,0 +1,66 @@
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  background-color: #28282B;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+h2 {
+  color: rgb(44, 44, 177); 
+}
+
+.blog-post-title { 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+}
+
+
+.navbar {
+  background-color: #68c2e6;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #611919;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
